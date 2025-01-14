@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: '<app-prayer></app-prayer>',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'rozaniec-app';
-}
+export class AppComponent { }
